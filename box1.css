@@ -1,0 +1,32 @@
+div {
+    width: calc(25% - 20px); /*chia div chiều dọc*/
+    float: left; /*chia div chiều ngang*/
+    border: 1px solid red; /*độ dày viền và màu*/
+    margin: 10px 20px 30px; /*khoảng cách viền ngoài*/
+    padding: 15px 10px 15px 20px; /*khoảng cách viền trong*/
+    box-sizing: border-box;
+
+    /*lệnh làm đẹp*/
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px deeppink;
+    transition: 5s all;
+
+}
+div:hover{
+    transform: translate(20px, 20px);
+    transform: rotate(45deg)
+
+}
+img{
+    max-width: 100%;
+
+}
+#box-s{
+    background-color: deeppink;
+}
+.box-bt{
+    background-color: aqua;
+}
+.bbt{
+    border-radius: 40px;
+}
