@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+ <form method="get" action="#">
+<!--     note action=địa chỉ gửi-->
+    <label> FullName</label>
+   <input type="text" name="Fullname" placeholder="Full name"/>
+   <br/>
+   <label>Email</label>
+   <input type="email" name="your_email" placeholder="Email..."/>
+     <br/>
+     <label>Telephone</label>
+     <input type="tel" name="phone" placeholder="Phone number..."/>
+     <br/>
+     <label>Password<label/>
+      <input type="Password" name="pwd" placeholder="Password..."/>
+     <br/>
+     <label>Age</label>
+     <input type="number" min="1" max="100" name="age" placeholder="Age..."/>
+         <br/>
+         <label>Birthday</label>
+         <input type="date" name="birthday" placeholder="Birthday..."/>
+         <br/>
+         <label>Time</label>
+         <input type="time" name="mytime" placeholder="Time..."/>
+         <br/>
+         <label>My color</label>
+         <input type="color" name="mycolor" placeholder="Color..."/>
+         <br/>
+         <label>Gender</label>
+         <input type="radio" name="gender" value="Male"/>Nam
+         <input type="radio" name="gender" value="FeMale"/>Nữ
+         <input type="radio" name="gender" value="LGBT"/>Gay
+         <br/>
+         <label><input type="checkbox" name="confirm" value="yes">Yêu Anh Nhé Bae<label/>
+         <br/>
+             <label>Tiểu sử bản thân<label/>
+                 <textarea name="description" rows="10" cols="50"></textarea>
+          <br/>
+           <label>Tỉnh/Thành phố<label/>
+               <select name="city">
+                   <option value="hanoi">Hà Nội</option>
+                   <option value="thanhhoa">Thanh Hóa</option>
+                   <option value="nhattan">Nhật Tân</option>
+                   <option value="hochiminh">Hồ Chí Minh</option>
+               </select>
+               <button type="button">Button</button>
+               <button type="reset">Reset</button>
+               <button type="submit">Submit</button>
+
+
+
+ </form>
+
+</body>
+</html>
